@@ -1,0 +1,128 @@
+body{
+    margin: 0 auto;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    
+}
+
+.inner-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 15%;
+    width: 50%;
+    height: 100%;
+}
+
+.inner-header > img{
+    height: 75%;
+    width:300px;
+}
+
+.nav{
+    bottom: 0px;
+    font-size: small;
+    color: white;
+    font-weight: lighter;
+}
+
+.shop{
+    position:relative;
+    bottom: 0px;
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.shop > p{
+    margin:0 auto;
+    font-size: small;
+    color: white;
+}
+
+.hero{
+    background-image: url(hero-1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.title{
+    width: 45%;
+    height: 45%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.replay{
+    margin: 40px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    color: white;
+    
+}
+
+.mission{
+    color: white;
+   width: 50%;
+}
+
+.sub{
+    margin: 0px;
+    font-size:20px;
+    padding: 0px;
+    
+}
+
+.name{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.hero-2{
+    background-image: url(hero-2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.title-2{
+    width: 45%;
+    height: 45%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-end;
+    position: relative;
+    left: 30%;
+}
